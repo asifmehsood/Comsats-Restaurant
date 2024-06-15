@@ -1,0 +1,281 @@
+body{
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR STYLE  */
+.containerbig{
+    background-image: url("https://wallpaperaccess.com/full/767567.jpg");
+    padding-bottom: 20px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    margin-bottom: 170px;
+}
+.logo{
+    width: 50%;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.navbar > .food-menu > .nav{
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+}
+.container > .navbar{
+    width: 45%;
+    padding-left: 200px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.food-menu{
+    display: flex;
+    padding-left: 0;
+}
+.nav{
+    margin: 0 25px;
+    border-radius: 25px;
+    background-color: rgb(229, 100, 100);
+    /* opacity: 0; */
+}
+.nav > li > a{
+    padding: 20px 0;
+}
+.nav > li > a:hover{
+    color: black;
+}
+.nav:hover{
+    background-color: rgb(229, 63, 63);
+}
+
+.account{
+    width: 5%;
+}
+.user{
+    margin-top: 10px;
+    width: 45px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+
+/* BODY CSS */
+.homeinfo{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.menu{
+    /* border: 1px solid red; */
+    width: 130px;
+    margin: 0 auto 100px auto;
+    /* padding: 10px; */
+    /* background-color: white; */
+}
+.menu > a > button{
+    padding: 18px;
+    border-radius: 28px;
+    background-color: rgb(229, 100, 100);
+    border: 1px solid rgb(229, 100, 100);
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.menu > a > button:hover{
+    background-color: rgb(229, 63, 63);
+}
+
+.bl1{
+    display: flex;
+    margin: 0 30px 30px 30px;
+}
+.bl1 > p{
+    width: 50%;
+    /* margin-right: 10px; */
+    margin: auto;
+}
+.bl1-1{
+    border-radius: 200px;
+    width: 300px;
+    margin: auto;
+}
+.new{
+    margin: 50px 120px 0 130px;
+}
+
+/* SLIDER STYLE  */
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+}
+.bodycontainer{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    margin: 0 100px 0 100px;
+}
+.slide-content{
+    margin: 0 40px;
+}
+.team{
+    margin: 10px auto 20px 100px;
+}
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(229, 100, 100);
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(229, 100, 100);
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(229, 100, 100);
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px; 
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: rgb(229, 100, 100);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #ff8243;;
+}
+
+/* RECIPE */
+.recipe{
+    margin: 0 100px 0 100px;
+    background-color: #faf5f5;
+}
+.recipe > h1{
+    margin-left: 20px;
+}
+.lasagna{
+    display: flex;
+}
+.recipe > .lasagna > img{
+    width: 500px;
+    margin: auto;
+    margin: 30px auto 20px auto;
+}
+
+/* FOOTER STYLE  */
+.footer{
+    display: flex;
+    background-color: #191919;
+}
+.copyright{
+    width: 70%;
+    /* border: 1px solid red; */
+    padding-left: 170px;
+    color: white;
+}
+.icons{
+    width: 30%;
+    display: flex;
+    /* margin-left: 400px; */
+    /* border: 1px solid black; */
+
+}
+
+.icons > a > img{
+    width: 50px;
+    height: 50px;
+    margin: auto 20px auto 10px;
+}
+.icons > a > .insta{
+    width: 60px;
+    height: 60px;
+}
+.icons > a > .you{
+    width: 52px;
+    height: 52px;
+    margin-top: 4px;
+}
+.icons > a > .face{
+    width: 52px;
+    height: 52px;
+    margin-top: 4px;
+}

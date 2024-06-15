@@ -1,0 +1,167 @@
+body{
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR STYLE  */
+.containerbig{
+    background-image: url("https://wallpaperaccess.com/full/767567.jpg");
+    padding-bottom: 20px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    background-color: rgb(37, 35, 35);
+}
+.logo{
+    width: 50%;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.navbar > .food-menu > .nav{
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+}
+.container > .navbar{
+    width: 45%;
+    padding-left: 200px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.food-menu{
+    display: flex;
+    padding-left: 0;
+}
+.nav{
+    margin: 0 25px;
+    border-radius: 25px;
+    background-color: rgb(229, 100, 100);
+    /* opacity: 0; */
+}
+.nav > li > a{
+    padding: 20px 0;
+}
+.nav > li > a:hover{
+    color: black;
+}
+.nav:hover{
+    background-color: rgb(229, 63, 63);
+}
+
+.account{
+    width: 5%;
+}
+.user{
+    margin-top: 10px;
+    width: 45px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+/* BODY  */
+.container2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto 50px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"], textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-radius: 20px;
+}
+
+textarea {
+    resize: vertical;
+    height: 210px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(229, 100, 100);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4343;
+}
+
+/* FOOTER STYLE  */
+.footer{
+    display: flex;
+    background-color: #191919;
+}
+.copyright{
+    width: 70%;
+    /* border: 1px solid red; */
+    padding-left: 170px;
+    color: white;
+}
+.icons{
+    width: 30%;
+    display: flex;
+    /* margin-left: 400px; */
+    /* border: 1px solid black; */
+
+}
+
+.icons > a > img{
+    width: 50px;
+    height: 50px;
+    margin: auto 20px auto 10px;
+}
+.icons > a > .insta{
+    width: 60px;
+    height: 60px;
+}
+.icons > a > .you{
+    width: 52px;
+    height: 52px;
+    margin-top: 4px;
+}
+.icons > a > .face{
+    width: 52px;
+    height: 52px;
+    margin-top: 4px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        
+        <main>
+            <div class="main-container">
+                <div class="name">
+                    <h3>Name: 
+                        <script>
+                            document.write(localStorage.getItem("name"));
+                        </script>
+                    </h3>
+                    
+                </div>
+    
+                <div class="email">
+                    <h3>Email: 
+                        <script>
+                            document.write(localStorage.getItem("email"));
+                        </script>
+                    </h3>
+                    
+                </div>
+    
+                <div class="password">
+                    <h3>Password: 
+                        <script>
+                            document.write(localStorage.getItem("password"));
+                        </script>
+                    </h3>
+                    
+                </div>
+    
+                <button onclick="changePass()">Change password</button>
+    
+                
+            </div>
+            
+
+            <section class="stats">
+                <div class="stat-item">
+                    <h2>Total Orders</h2>
+                    <p id="total-orders">0</p>
+                </div>
+                <div class="stat-item">
+                    <h2>Total Revenue</h2>
+                    <p id="total-revenue">$0</p>
+                </div>
+                <div class="stat-item">
+                    <h2>New Customers</h2>
+                    <p id="new-customers">0</p>
+                </div>
+            </section>
+            <button onclick="logOut()" class="log">Logout</button>
+        </main>
+    </div>
+    
+    <script src="dashboard.js"></script>
+</body>
+<script>
+    function logOut(){
+        localStorage.removeItem("name");
+        localStorage.removeItem("email");
+        window.location.href = "sign-in.html";
+    }
+    function changePass(){
+        window.location.href = "changePassword.html";
+    }
+</script>
+</html>

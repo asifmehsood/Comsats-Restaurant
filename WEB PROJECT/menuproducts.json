@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" BEEF BURGER",
+        "price": 20,
+        "image": "1-removebg-preview.png"
+    },
+    {
+        "id": 2,
+        "name":" BURGER WITH FRIES",
+        "price": 25,
+        "image": "2-removebg-preview.png"
+    },
+    {
+        "id": 3,
+        "name":" PASTA GREAT DEAL MIXTURE",
+        "price": 29,
+        "image": "3-removebg-preview.png"
+    },
+    {
+        "id": 4,
+        "name":" PAKISTANI BURGER",
+        "price": 20,
+        "image": "4-removebg-preview.png"
+    },
+    {
+        "id": 5,
+        "name":" CHINESE DIFFERENT DISH WITH GREAT OFFER",
+        "price": 30,
+        "image": "5-removebg-preview.png"
+    },
+    {
+        "id": 6,
+        "name":" CHICKEN WITH FRIES",
+        "price": 22,
+        "image": "6-removebg-preview.png"
+    },
+    {
+        "id": 7,
+        "name":" XL CHICKEN PIZZA WITH TOMATO LAYER",
+        "price": 27,
+        "image": "7-removebg-preview.png"
+    },
+    {
+        "id": 8,
+        "name":" XXL CROWN CRUST CHICKEN PIZZA WITH COLD DRINK",
+        "price": 24,
+        "image": "8-removebg-preview.png"
+    }
+
+]
